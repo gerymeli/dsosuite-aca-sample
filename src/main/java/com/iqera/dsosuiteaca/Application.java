@@ -37,7 +37,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-    return "Hello World from Azure Container Apps";
+        return "Hello World from Azure Container Apps";
     }
 
     public static void main(String[] args) {
